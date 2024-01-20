@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Inconsolata:wght@300&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+header{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    box-sizing: border-box; 
+    padding: 50px; 
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.foto{
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 80px;
+    padding-top: 50px;
+    padding-bottom: 30px; 
+}
+
+img{
+    margin-left: 4px;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    letter-spacing: 0.10cm;
+    border-bottom: 0.5px solid #000000;
+}
+
+h3, h4 {
+    display: inline-block;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+#container1{
+    text-align: center;
+    box-shadow: 0 2px 2px dimgray;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/teclado.jpg);
+    transition: all 0.25s;
+}
+
+#container1:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+}
+
+#container2{
+    text-align: center;
+    box-shadow: 0 2px 2px dimgray;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/libros.jpg);
+    transition: all 0.25s;
+}
+
+#container2:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+}
+
+#container3{
+    text-align: center;
+    box-shadow: 0 2px 2px dimgray;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/cell.jpg);
+    transition: all 0.25s;
+}
+
+#container3:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+}
+
+.margen1{
+    margin-top: 30px;
+    margin-bottom: 172px;
+}
+
+.margen2{
+    margin-bottom: 118px;
+}
